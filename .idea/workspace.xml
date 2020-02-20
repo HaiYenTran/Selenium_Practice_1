@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="291997d0-25bd-4fd6-b060-0b3c68a12cdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Modules/Dropdown/DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Modules/Dropdown/DropdownTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Modules/Hover/HoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Modules/Hover/HoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PagesTest/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PagesTest/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -44,50 +47,7 @@
       <recent name="D:\Selenium\Work\Practice_1\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ChromeTest">
-    <configuration name="BaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaseTest.BaseTest" />
-      <module name="Practice_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BaseTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChromeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Modules.CrossBrowser.ChromeTest" />
-      <module name="Practice_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Modules.CrossBrowser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BmiTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Modules.BMI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Modules" />
-      <option name="MAIN_CLASS_NAME" value="Modules.BMI.BmiTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.KeysTest">
     <configuration name="ChromeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_1" />
       <extension name="coverage">
@@ -105,16 +65,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Modules.Login.*" />
+          <option name="PATTERN" value="Modules.Dropdown.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Modules.Login" />
-      <option name="MAIN_CLASS_NAME" value="Modules.Login.LoginTest" />
+      <option name="PACKAGE_NAME" value="Modules.Dropdown" />
+      <option name="MAIN_CLASS_NAME" value="Modules.Dropdown.DropdownTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropdownTest.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Modules.Dropdown.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Modules.Dropdown" />
+      <option name="MAIN_CLASS_NAME" value="Modules.Dropdown.DropdownTest" />
+      <option name="METHOD_NAME" value="testSelectOption" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HoverTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Modules.Hover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Modules.Hover" />
+      <option name="MAIN_CLASS_NAME" value="Modules.Hover.HoverTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeysTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Modules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Modules" />
+      <option name="MAIN_CLASS_NAME" value="Modules.KeysTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -124,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.KeysTest" />
+        <item itemvalue="TestNG.DropdownTest" />
+        <item itemvalue="TestNG.HoverTest" />
+        <item itemvalue="TestNG.DropdownTest.testSelectOption" />
         <item itemvalue="TestNG.ChromeTest" />
-        <item itemvalue="Application.ChromeTest" />
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.BmiTest" />
-        <item itemvalue="Application.BaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +170,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582198170113">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1582198170113" />
     <state x="422" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582011111093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -166,6 +182,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="224" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1582012439571" />
+    <state x="430" y="212" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582198048588">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="212" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1582198048588" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1582016701969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -174,26 +194,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="561" y="258" width="260" height="211" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1582016758091" />
-    <state width="1323" height="232" key="GridCell.Tab.0.bottom" timestamp="1582016791838">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1582199044094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="128" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1581421352313" />
-    <state width="1323" height="232" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582016791838" />
-    <state width="1323" height="232" key="GridCell.Tab.0.center" timestamp="1582016791837">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582199044094" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1582199044094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="128" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1581421352313" />
-    <state width="1323" height="232" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582016791837" />
-    <state width="1323" height="232" key="GridCell.Tab.0.left" timestamp="1582016791837">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582199044094" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1582199044093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="128" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1581421352313" />
-    <state width="1323" height="232" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582016791837" />
-    <state width="1323" height="232" key="GridCell.Tab.0.right" timestamp="1582016791838">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582199044093" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1582199044094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="128" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1581421352313" />
-    <state width="1323" height="232" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582016791838" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582199044094" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1582199056130">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582199056130" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1582199056129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582199056129" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1582199056129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582199056129" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1582199056129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582199056129" />
     <state x="213" y="20" key="Maven.ArtifactSearchDialog" timestamp="1581410394524">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -202,10 +238,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="306" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582016450169" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582017908945">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582195874413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582017908945" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582195874413" />
     <state x="513" y="156" key="svn.repositoryBrowser" timestamp="1582016878952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
